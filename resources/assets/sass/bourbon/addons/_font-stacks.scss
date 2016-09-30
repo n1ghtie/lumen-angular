@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/// Georgia font stack.
+///
+/// @type List
+
+$georgia: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+
+/// Helvetica font stack.
+///
+/// @type List
+
+$helvetica: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+
+/// Lucida Grande font stack.
+///
+/// @type List
+
+$lucida-grande: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+
+/// Monospace font stack.
+///
+/// @type List
+
+$monospace: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+
+/// Verdana font stack.
+///
+/// @type List
+
+$verdana: "Verdana", "Geneva", sans-serif;
+
+$arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+@font-face {
+  font-family: 'ExpediaSans-Medium';
+  src: url('../../fonts/ExpediaSans-Regular.eot');
+  src: url('../../fonts/ExpediaSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/ExpediaSans-Regular.woff') format('woff'),
+  url('../../fonts/ExpediaSans-Regular.ttf') format('truetype'),
+  url('../../fonts/ExpediaSans-Regular.svg#ExpediaSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExpediaSans-Regular';
+  src: url('../../fonts/ExpediaSans-Medium.eot');
+  src: url('../../fonts/ExpediaSans-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/ExpediaSans-Medium.woff') format('woff'),
+  url('../../fonts/ExpediaSans-Medium.ttf') format('truetype'),
+  url('../../fonts/ExpediaSans-Medium.svg#ExpediaSans-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+.helvetica {
+  font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+  font-weight: 300;
+}

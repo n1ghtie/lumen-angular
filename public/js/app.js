@@ -42637,7 +42637,6 @@ app.controller('usersCtrl', function ($scope, $http) {
 
   $http.get("users").success(function (response) {
     $scope.users = response;
-    document.getElementsByClassName("test")[0].innerHTML = "hello";
   });
 
   $scope.confirmDelete = function (id) {
